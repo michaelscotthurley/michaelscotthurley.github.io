@@ -1,3 +1,7 @@
+@media all and (max-width: 900px) {
+  .overlay { display: none; }
+}
+
 #nameText {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -9,15 +13,15 @@
   to   { text-shadow: 0;              color: #4d4d4d;       }
 }
 
-@-moz-keyframes NAME-YOUR-ANIMATION {
+@-moz-keyframes blackblur {
   from { text-shadow: 0 0 72px #4d4d4d; color: transparent; }
   to   { text-shadow: 0;              color: #4d4d4d;       }
 }
-@-o-keyframes NAME-YOUR-ANIMATION {
+@-o-keyframes blackblur {
   from { text-shadow: 0 0 72px #4d4d4d; color: transparent; }
   to   { text-shadow: 0;              color: #4d4d4d;       }
 }
-@keyframes NAME-YOUR-ANIMATION {
+@keyframes blackblur {
   from { text-shadow: 0 0 72px #4d4d4d; color: transparent; }
   to   { text-shadow: 0;              color: #4d4d4d;       }
 }
