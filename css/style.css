@@ -72,6 +72,15 @@
     -o-background-size: cover;
 }
 
+.projectDesc {
+    background: rgba(242, 242, 242, .3);    
+    border-radius: 5px;
+    padding: 35px 25px 10px 25px;
+    color: #4d4d4d;
+    text-align: left;
+    margin-bottom: 3em;
+}
+
 #about {
     display: table;
     width: 100%;
@@ -85,6 +94,15 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.aboutMe {
+    background: rgba(242, 242, 242, .3);    
+    border-radius: 5px;
+    padding: 35px 25px 10px 25px;
+    color: #4d4d4d;
+    text-align: left;
+    margin-bottom: 3em;
 }
 
 #contact {
