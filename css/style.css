@@ -1,5 +1,5 @@
-@media all and (max-width: 900px) {
-  .overlay { display: none; }
+@media all and (max-width: 1000px) {
+  #nameText { display: none; }
 }
 
 #nameText {
